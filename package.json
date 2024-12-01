@@ -2,6 +2,9 @@
   "name": "usdebt-bridge",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "16.x"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=production vue-cli-service serve",
     "build:rinkeby": "cross-env NODE_ENV=development npm run clear && vue-cli-service build",
